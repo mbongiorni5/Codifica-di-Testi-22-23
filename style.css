@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+/*Foglio di stile CSS*/
+
+body {
+  background-color: #f8f4e9; 
+  color: #333;
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.header {
+  padding: 20px;
+}
+
+.nav {
+  background-color: #5d4c3a; 
+  padding: 10px 0;
+  text-align: center;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 10px 20px;
+  transition: opacity 0.3s;
+}
+
+.menu a:hover {
+  opacity: 0.7;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+section {
+  margin-bottom: 40px;
+  background-color: #e6dbc5; 
+  padding: 20px;
+}
+
+.wrapper {
+  padding: 0 70px;  
+}
+
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+.table-list {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+.cell-list {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+/* Stile per la galleria di immagini */
+.galleria {
+  position: relative;
+  margin-bottom: 20px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slides {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slides img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+
+/* Stile per il contenitore fisso sulla destra */
+#legend-section {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background-color: #5d4c3a;
+  color: white;
+  padding-right: 20px;
+  margin-right: 40px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+
+/* Stile per ogni riga delle opzioni */
+.opzione {
+  margin-bottom: 10px;
+  color: white;
+}
+
+/* Stile per gli input delle checkbox */
+.opzione input[type="checkbox"] {
+  vertical-align: middle;
+  margin-left: 10px;
+  
+}
+
+/* Stile per il testo accanto alle checkbox */
+.opzione label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*Stile per i bottoni della galleria*/
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  height: 40px;
+  background-color: #5d4c3a;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.prev:hover,
+.next:hover {
+  opacity: 0.7;
+}
+
+.pages {
+  margin-top: 20px;
+  line-height: 1.6;
+  padding-left: 70px; 
+}
+
+.date {
+  padding: 130px; 
+}
+
+
+.cell-list-value p:last-child {
+  margin-bottom: 0;
+}
+
+.row-list:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.pages h3 {
+  text-align: left; 
+}
+
+#footer {
+  background-color: #5d4c3a;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container p {
+  margin: 10px;
+}
+
+
