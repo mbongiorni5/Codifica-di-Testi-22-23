@@ -4,6 +4,8 @@ http://digital-library.cdec.it/cdec-web/storico/detail/IT-CDEC-ST0003-000006/dia
 
 Le pagine codificate in questo progetto sono le numero 48, 53 e 54. 
 
-Il file XML è stato validato eseguendo il comando su terminale java -cp “Xerces-J-bin.2.12.1/xerces-2_12_1/*” dom.Counter -v source/progetto.xml
+Il file XML è stato validato eseguendo il comando su terminale:
+java -cp “Xerces-J-bin.2.12.1/xerces-2_12_1/*” dom.Counter -v source/progetto.xml
 
-Il file HTML è stato generato eseguendo il comando su terminale java -cp “SaxonHE10-3J/*” net.sf.saxon.Transform -s:./source/progetto.xml -xsl:./source/style.xsl -o:out.html
+Il file HTML è stato generato eseguendo il comando su terminale:
+java -cp “SaxonHE10-3J/*” net.sf.saxon.Transform -s:./source/progetto.xml -xsl:./source/style.xsl -o:out.html
